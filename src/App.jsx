@@ -2,6 +2,7 @@ import './App.css'
 import Banner from './components/Banner/Banner'
 import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
 import GreatTea from './components/GreatTea/GreatTea'
+import MeetClient from './components/MeetClient/MeetClient'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <FeaturedProducts />
       <GreatTea />
+      <MeetClient />
     </div>
   )
 }

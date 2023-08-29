@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './components/Banner/Banner'
 import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
+import Footer from './components/Footer/Footer'
 import GreatTea from './components/GreatTea/GreatTea'
 import MeetClient from './components/MeetClient/MeetClient'
 import Navbar from './components/Navbar/Navbar'
@@ -16,6 +17,7 @@ function App() {
       <GreatTea />
       <MeetClient />
       <News />
+      <Footer />
     </div>
   )
 }

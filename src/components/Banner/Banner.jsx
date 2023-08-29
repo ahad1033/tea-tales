@@ -1,15 +1,16 @@
 import bannerImg from '../../assets/images/banner.png'
 import arrow from '../../assets/images/arrow.png'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const Banner = () => {
     return (
         <div className="hero min-h-screen bg-base-100">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className='relative'>
-                    <img id='main' src={bannerImg} className="max-w-md rounded-lg shadow-2xl" />
-                    <div id='unique' className='bg-white text-black absolute bottom-3 left-3 rounded p-2'>
-                        
+                    <img src={bannerImg} className="max-w-md rounded-lg shadow-2xl" />
+                    <div className='bg-slate-100 text-black absolute bottom-5 left-5 rounded px-3 flex justify-center items-center gap-2 py-2'>
+                        <FontAwesomeIcon className='text-2xl text-yellow-400' icon={faStar} />
                         <div>
                             <h1 className='text-2xl font-bold'>5.00</h1>
                             <p className='text-xs'>Trust Pilot Ratings</p>

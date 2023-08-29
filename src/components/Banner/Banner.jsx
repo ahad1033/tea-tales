@@ -6,7 +6,16 @@ const Banner = () => {
     return (
         <div className="hero min-h-screen bg-base-100">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={bannerImg} className="max-w-md rounded-lg shadow-2xl" />
+                <div className='relative'>
+                    <img id='main' src={bannerImg} className="max-w-md rounded-lg shadow-2xl" />
+                    <div id='unique' className='bg-white text-black absolute bottom-3 left-3 rounded p-2'>
+                        
+                        <div>
+                            <h1 className='text-2xl font-bold'>5.00</h1>
+                            <p className='text-xs'>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
                 <div>
                     <h1 className="text-5xl font-bold">It is good <p className='my-2'>tea time at The</p> Tea House</h1>
                     <p className="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>

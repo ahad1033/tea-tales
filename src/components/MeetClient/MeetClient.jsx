@@ -8,7 +8,7 @@ const MeetClient = () => {
             <div className="text-white w-1/2 p-3 lg:p-28">
                 <h1 className="font-bold text-5xl md:text-3xl sm:text-2xl my-3">Meet Our Super <p>Clients</p></h1>
                 <p className="my-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. </p>
-                <button className="btn bg-white text-orange-500 normal-case font-bold my-3">
+                <button className="btn bg-white text-orange-500 normal-case font-bold my-3 border-0">
                     Show All
                 </button>
             </div>

@@ -4,6 +4,7 @@ import FeaturedProducts from './components/FeaturedProducts/FeaturedProducts'
 import GreatTea from './components/GreatTea/GreatTea'
 import MeetClient from './components/MeetClient/MeetClient'
 import Navbar from './components/Navbar/Navbar'
+import News from './components/News/News'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <FeaturedProducts />
       <GreatTea />
       <MeetClient />
+      <News />
     </div>
   )
 }
